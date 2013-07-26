@@ -1,4 +1,3 @@
-
 # Titanium 설치 및 SDK 설치
 1. OSX 일 경우 Mac AppStore에서 Xcode 설치
 1. Appcelerator 로그인하여 해당 OS에 맞는  Titanium Studio 다운로드 후 설치
@@ -19,7 +18,7 @@ path 설정 없이도 가능하나 매번 사용되는 명령어의 경로를 �
 1. bash_profile에 sdk의 경로 추가
 terminal에 아래와 같은 명령어 실행 (주의! 경로를 자신의 sdk경로로 바꿔준후 실행, 경로명에 띄어쓰기 있으면 띄었쓰기 앞에 \ 추가)
 
-          echo export ANDROID_SDK_ROOT=/path/to/android/sdk >> ~/.bash_profile
+		echo export ANDROID_SDK_ROOT=/path/to/android/sdk >> ~/.bash_profile
 
 2. android 병령어들의 심볼 만들기
 아래 명령어를 실행
