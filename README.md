@@ -11,10 +11,10 @@ https://my.appcelerator.com/auth/signup
 1. dash board에 나와있듯이 필수 android tool 관련과 android 2.3의 sdk, google-api 등을 선택 (  4.1.2 의 sdk, google-api, x86 도 선택)
 1. 설치 완료후 Dashboard 새로고침하면 Configure Native SDKs에 해당 Andorid SDK에 초록불이 들어오면 성공
 
-# Path 설정
+# 1. Path 설정
 path 설정 없이도 가능하나 매번 사용되는 명령어의 경로를 입력해야하는 불편함 발생
 
-## OSX
+## OSX (path)
 
 1. bash_profile에 sdk의 경로 추가
 terminal에 아래와 같은 명령어 실행 (주의! 경로를 자신의 sdk경로로 바꿔준후 실행, 경로명에 띄어쓰기 있으면 띄었쓰기 앞에 \ 추가)
@@ -36,7 +36,7 @@ terminal에서 아래 명령어를 통해 설치 확인
 		titanium.py
         android
 
-## Window
+## Window (path)
 
 1. 환경 변수 설정
 제어판 - 시스템 및 보안 - 고급 시스템 설정 - 고급 (탭) - 환경변수 - 사용자변수에 PATH 편집
@@ -51,7 +51,7 @@ python이 없으면 설치 필요 (Titanium Studio에 포함된 Python을 이용
 1. cmd에서 titanium.py 실행하여 설정 확인
 
 
-# Android AVD 설정
+# 2. Android AVD 설정
 
 1. intel CPU를 사용하는 노트북이면 VT를 지원할경우 HAX를 통해 빠른 x86 에뮬레이터 이용가능  
 [Intel® Hardware Accelerated Execution Manager](http://software.intel.com/en-us/articles/intel-hardware-accelerated-execution-manager?page=4)에서 OS에 맞는 것을 설치
@@ -78,10 +78,10 @@ python이 없으면 설치 필요 (Titanium Studio에 포함된 Python을 이용
 
 
 
-# FastDev를 이용하기 위한 설정
+# 3. FastDev를 이용하기 위한 설정
 변경한 코드의 빠른 확인을 위해 다음 설정이 필요하다.
 
-## OSX
+## OSX (run_fast)
 1. [run_fast.js]() 파일을 다운 받아 workspace 폴더에 넣는다. (파일을 열어 상단 경로 설정을 자신의 경우 맞게 고침)
 1. Titanium Studio의 메뉴에서 Run -external tool - external tool configuration  클릭
 1.  program에서 오른쪽 마우스 클릭 - new 선택
@@ -93,7 +93,7 @@ python이 없으면 설치 필요 (Titanium Studio에 포함된 Python을 이용
 	* Arguments : ${workspace_loc}/run_fast.js ${project_loc} ${project_name} ${string_prompt:Platform? (i or a):i}
 1. 먼저 생성했던 프로젝트의 파일이나 폴더 등이 선택된 상태에서 방금 만든 Run Fast External tool 실행
 
-## Window
+## Window (run_fast)
 cmd 에서 workspace로 이동후 아래 실행
 
 		echo alloy compile -c platform=android ^& titanium.py fastdev kill-app > run_fast.bat
@@ -107,7 +107,7 @@ cmd 에서 workspace로 이동후 아래 실행
 	* Working Directory : ${project_loc}
 1. 먼저 생성했던 프로젝트의 파일이나 폴더 등이 선택된 상태에서 방금 만든 Run Fast External tool 실행
 
-## 단축키 설정(공통)
+## Studio 단축키 설정(run_fast)
 1. 스튜디오의 Preference 선택하고
 	* window : 메뉴에서 window - preference
 	* osx : cmd + ,
