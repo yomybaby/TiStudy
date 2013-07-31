@@ -1,6 +1,6 @@
 [submodule "HelloTi"]
 	path = HelloTi
-	url = https://yomybaby@github.com/yomybaby/HelloTi.git
+	url = https://yomybaby@github.com/yomybaby/HelloTi
 [submodule "Day1_Lectures"]
 	path = Day1_Lectures
 	url = https://github.com/miconblog/Lectures
