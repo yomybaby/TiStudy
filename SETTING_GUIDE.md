@@ -86,7 +86,7 @@ python이 없으면 설치 필요 (Titanium Studio에 포함된 Python을 이용
 변경한 코드의 빠른 확인을 위해 다음 설정이 필요하다.
 
 ## OSX (run_fast)
-1. [run_fast.js](https://gist.github.com/yomybaby/3e84a1bb4b26727ee2c0) 파일을 다운 받아 workspace 폴더에 넣는다. (파일을 열어 상단 경로 설정을 자신의 경우 맞게 고침)
+1. [run_fast.js](https://gist.github.com/yomybaby/3e84a1bb4b26727ee2c0/raw/0d5b66e5f48d4db9f8f2b3ddf7354deea9c1e98f/run_fast.js) 파일을 다운 받아 workspace 폴더에 넣는다. (파일을 열어 상단 경로 설정을 자신의 경우 맞게 고침)
 1. Titanium Studio의 메뉴에서 Run -external tool - external tool configuration  클릭
 1.  program에서 오른쪽 마우스 클릭 - new 선택
 1.  아래와 같이 각 항목에 입력
