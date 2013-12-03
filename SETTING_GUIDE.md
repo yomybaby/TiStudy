@@ -57,11 +57,10 @@ python이 없으면 설치 필요 (Titanium Studio에 포함된 Python을 이용
 
 1. intel CPU를 사용하는 노트북이면 VT를 지원할경우 HAX를 통해 빠른 x86 에뮬레이터 이용가능  
 [Intel® Hardware Accelerated Execution Manager](http://software.intel.com/en-us/articles/intel-hardware-accelerated-execution-manager?page=4)에서 OS에 맞는 것을 설치
-
 1. Studio의 설정의 Android에서 기본 sdk를 Android 4.1.2 [x86]으로 하고 Default Screen을  HVGA로 선택
 1. Titanium Studio에서 프로젝트 생성
-1. Run Android Emulator
-1. ~/.android/avd/ 밑에 방금 생성된 avd 폴더 안의 config.ini 열기
+1. Run Android Emulator (실행되는 상단의 에뮬레이터 이름 기억, 다음 단계에서 폴더 찾을 때 필요)
+1. ~/.android/avd/ 밑에 방금 생성된 avd 폴더 안의 config.ini 열기 (예 : /Users/YOUR_USERNAME/.android/avd/titanium_X_HVGA_x86.avd)
 1. **sd카드 경로 설정 나온 부분을 제외**하고 다 삭제후 아래 붙여 넣고 저장
 
 		avd.ini.encoding=ISO-8859-1
