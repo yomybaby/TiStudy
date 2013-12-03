@@ -112,8 +112,12 @@ cmd 에서 workspace로 이동후 아래 실행
 1. 먼저 생성했던 프로젝트의 파일이나 폴더 등이 선택된 상태에서 방금 만든 Run Fast External tool 실행
 
 ## Studio 단축키 설정(run_fast)
-1. 스튜디오의 Preference 선택하고
-	* window : 메뉴에서 window - preference
-	* osx : cmd + ,
-1. keys에서 Run Last Launched External Tool의 단축키를 다른것과 겹치지 않는 것으로 지정  
-(예:  Cmd + Shift + 9 )
+1. OSX에서의 자동완성 단축키(ctrl+space) 충돌
+	* osx에서의 ctrl + space는 spotlight 단축키 이므로 이를 변경해서 사용해야 편리하다
+	* 변경은 osx의 시스템 환경설정에서 spotlight 를 선택하고 하단에 나와있는 spotlight 메뉴 키보드 단축키의 체크박스를 해제 하면 된다.
+2. run_fast 단축키
+	1. 스튜디오의 Preference 선택하고
+		* window : 메뉴에서 window - preference
+		* osx : cmd + ,
+	1. keys에서 Run Last Launched External Tool의 단축키를 다른것과 겹치지 않는 것으로 지정  
+	(예:  Cmd + Shift + 9 )
