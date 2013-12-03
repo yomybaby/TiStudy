@@ -32,7 +32,9 @@
 
 ## 3. Javascript 기본
 [JS Bin](http://jsbin.com)에서 실습하면 편리합니다.
-* 비교 연산자 \=\=, \=\=\=
+
+* 비교 연산자 ==, ===
+
 		var one= 1, oneString = '1' , t = true;
 
         console.log(one == oneString);
@@ -42,8 +44,10 @@
         console.log(one === oneString);
         console.log(one === t);
         console.log(oneString === t);
+        
 * 원시값/복합 객체의 저장, 복사, 그리고 비교
 	* 복사
+
     		var p = 1;
             var copyOfP = p;
             p = 3;
@@ -53,7 +57,9 @@
             var copyOfMyObject = myObject;
             myObject.foo = 'bar';
             console.log(copyOfMyObject.foo);
+            
 	* 원시값의 비교    	
+
             var p1 = 10;
             var p2 = 10;
             var p3 = new Number('10');
@@ -66,7 +72,9 @@
             console.log(p1 === p3_1);
             p4=10;
             console.log(p4 === p3);
+
     * 복합 객체의 비교
+
     		var objectFoo = { smae : 'same' };
             var objectBar = { smae : 'same' };
             
@@ -76,9 +84,11 @@
             var objectB = objectA;
             
             console.log( objectA === objectB );
+
 * 객체 속성 접근방법
 	* object['property_name']
     * object.property_name
+
     		var obj = {
             	name : 'MyObject'
                 };
@@ -86,6 +96,7 @@
             console.log(obj.name);
             console.log(obj["name"]);
             console.log(obj[a]);
+
 * 함수는 1급 클래스이다.  
 >변수, 배열, 객체에 저장될 수 있다는 뜻이다. 또한 함수에 전달될 수도 있고 함수에서 반환될 수도 있다. 그리고 함수는 객체이기 때문에 속성도 가지고 있다. - "자바스크립트를 깨우치다" 중에서
 
@@ -114,6 +125,9 @@
 
 ## 4. Titanium UI & Alloy View
 Alloy View와 Style을 가지고 설명하며 진행, 강사의 시연을 먼저 보고 수강자들의 실습을 진행.
+
+
+
 * OS별 버전별 UI의 살펴보기
 * View 계층구조
 * positioning 앞서 TSS 파일 이해하기
@@ -139,13 +153,15 @@ Alloy View와 Style을 가지고 설명하며 진행, 강사의 시연을 먼저
 
 ## 5. Titanium UI & Alloy Controller
 * Event
-	* UI 컴포넌트의 event
+	* UI 컴포넌트의 event`
+	* UI 컴포넌트의 event`            ``
 * 상속
-	* `exports=baseController = 'parentControllerName'
+	* `exports=baseController = 'parentControllerName'`
 	
     
 ## 6. Cross Platform의 대응
 http://docs.appcelerator.com/titanium/3.0/#!/guide/Alloy_Styles_and_Themes-section-35621526_AlloyStylesandThemes-StylePriorities
+
 * files
 	* image : 각 os별로 native와 동일
     * folder로 구분
@@ -160,7 +176,7 @@ http://docs.appcelerator.com/titanium/3.0/#!/guide/Alloy_Styles_and_Themes-secti
     * OS_TIZEN : true if the current compiler target is Tizen
     * ENV_DEV : true if the current compiler target is built for development (running in the simulator or emulator)
     * ENV_TEST : true if the current compiler target is built for testing on a device
-    ENV_PRODUCTION : true if the current compiler target is built for production (running after a packaged installation)
+    * ENV_PRODUCTION : true if the current compiler target is built for production (running after a packaged installation)
     
 ## 7. Widget 사용하기
 - [Alloy Love](http://alloylove.com/) 사이트에서 위젯을 다운로드 받는다.
@@ -183,8 +199,3 @@ http://docs.appcelerator.com/titanium/3.0/#!/guide/Alloy_Styles_and_Themes-secti
 - `reauire('module name')` 구문을 통해 모듈을 불러온다.
 - **모듈링크**
   1. https://github.com/billdawson/ti-android-animation
-  2. https://github.com/amano/TiELCImagePicker
-
-### Tip
-* 단축키
-    * view, style, controller 이동 단축키 : cmd+shift+v,s,c
