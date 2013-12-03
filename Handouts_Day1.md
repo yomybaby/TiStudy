@@ -1,4 +1,5 @@
 # 12월 4일 Ti 강좌
+github : https://github.com/yomybaby/TiStudy
 
 ## 0. Ice braking 및 강좌 소개
 * 강사 소개
