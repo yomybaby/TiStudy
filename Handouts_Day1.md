@@ -1,6 +1,6 @@
 # 12월 4일 Ti 강좌
 
-### 0. Ice braking 및 강좌 소개
+## 0. Ice braking 및 강좌 소개
 * 강사 소개
 * 수강생 소개
 * 강좌 소개
@@ -9,7 +9,7 @@
 	* '당신이 알고 있는 타이타늄' 자료 활용
 
 
-### 1. Titanium 환경설정 
+## 1. Titanium 환경설정 
 * 기본 타이타늄 설정 - Dashboard 이용
 * 설정 확인 및 맛보기 실행
 	* 프로젝트 생성
@@ -21,7 +21,7 @@
 
 
 
-### 2. Document 보는 법
+## 2. Document 보는 법
 * API : http://docs.appcelerator.com/titanium/3.0/#!/api
     * 컴포넌트 명
     * 상속 정보
