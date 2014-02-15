@@ -1,4 +1,4 @@
-# Titanium 설치 및 SDK 설치
+# 1. Titanium 설치 및 SDK 설치
 
 1. Appcelerator 가입 / 로그인하여 해당 OS에 맞는  Titanium Studio 다운로드 후 설치
 https://my.appcelerator.com/auth/signup
@@ -9,17 +9,17 @@ https://my.appcelerator.com/auth/signup
 1. android sdk가 저장될 경로 설정 ( 예) C:\User\사용자명\dev\android_sdk , ~/dev/android_sdk )
 1. 설치 완료후 Dashboard 새로고침하면 Configure Native SDKs에 해당 Andorid SDK에 초록불이 들어오면 성공 (초록불이 안들어 올경우 해당 메시지에 따라 필요한 sdk를 선택하여 설치합니다.)
 
-# 1. Xcode
+# 2. Xcode
 맥(OSX) 컴퓨터 일 경우 Mac AppStore에서 Xcode 설치
 
-# 2. Android GenyMotion Emulator
+# 3. Android GenyMotion Emulator
 빠른 시뮬레이터를 vm으로 제공하는 서비스입니다. 무료로도 기본적인 사용을 할 수 있습니다.
 
 1. http://www.genymotion.com 가입 후 다운로드
 2. Genymotion 실행후 원하는 '+' 아이콘 클릭하여 에뮬레이터 이미지 다운로드
 	* 실습에서는 Galaxy Nexus-4.1.1-with Google Apps-API 16 - 720x1280 을 사용합니다.
 
-# 기타 빠른 개발을 도와주는 도구 설치
+# 4. 기타 빠른 개발을 도와주는 도구 설치
 mac일 경우 아래 명령어 앞에 sudo를 추가해서 실행하세요.
 
 * tishadow 설치 : `npm install -g tishadow`
