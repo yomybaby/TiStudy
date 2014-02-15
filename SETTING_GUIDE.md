@@ -23,3 +23,6 @@ https://my.appcelerator.com/auth/signup
 mac일 경우 아래 명령어 앞에 sudo를 추가해서 실행하세요.
 
 * tishadow 설치 : `npm install -g tishadow`
+	* 개발할 때 빠르게 시뮬레이터와 디바이스로 실행시켜주는 툴 
+* gittio cli 설치 : `npm install -g gittio`
+	* titanium 모듈과 alloy Widget을 쉽게 isntall/uninstall 시켜주는 도구 http://gitt.io
