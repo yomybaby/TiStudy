@@ -1,4 +1,6 @@
-타이타늄 강좌 참석에 앞서 꼭 필요한 설정들입니다. 다운로드 용량이 큽니다. 사전에 반드시 준비하고 오시기 바랍니다.
+타이타늄 강좌 참석에 앞서 꼭 필요한 설정들입니다. 다운로드 용량이 큽니다. 사전에 반드시 준비하고 오시기 바랍니다.  
+좀더 상세한 설명은 appcelerator 공식 문서를 참고하세요.  
+http://docs.appcelerator.com/titanium/latest/#!/guide/Installation_and_Configuration.
 
 # 1. Titanium Studio 및 Titanium SDK 설치
 
