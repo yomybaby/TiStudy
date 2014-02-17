@@ -14,6 +14,7 @@ https://my.appcelerator.com/auth/signup
 
 # 2. Platform SDKs
 원하는 개발 환경에 따라 Android 및 iOS 개발환경을 설정해야 합니다. 강좌는 Android와 iOS를 다룹니다.
+
 1. Titanium Studio 실행 후 나오는 Dashboard 에서 GetStarted 탭의 하단에 Configure Native SDKs 정보가 나옴.
 2. 설명에 따라서 Android SDK를 설치하세요.
 3. iOS의 경우는 맥에서만 개발 가능하며 Mac AppStore에서 Xcode 설치만 하면 됩니다.
