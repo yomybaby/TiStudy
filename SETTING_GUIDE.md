@@ -33,7 +33,8 @@ https://my.appcelerator.com/auth/signup
 # 4. 기타 빠른 개발을 도와주는 도구 설치
 mac일 경우 아래 명령어 앞에 sudo를 추가해서 실행하세요.
 
-* tishadow 설치 : `npm install -g tishadow`
+* tishadow 설치 : `npm install -g dbankier/TiShadow`
+	* 위 명령은 실행이 조금 오래 걸립니다. 기다려 주세요.(안드로이드 관련 버그로 최신 master version을 받는 명령어 입니다.) 
 	* 개발할 때 빠르게 시뮬레이터와 디바이스로 실행시켜주는 툴 
 	* http://tishadow.yydigital.com
 * gittio cli 설치 : `npm install -g gittio`
