@@ -28,7 +28,7 @@ https://my.appcelerator.com/auth/signup
 
 1. http://www.genymotion.com 가입 후 다운로드
 2. Genymotion 실행후 원하는 '+' 아이콘 클릭하여 에뮬레이터 이미지 다운로드
-	* 실습에서는 Galaxy Nexus-4.1.1-with Google Apps-API 16 - 720x1280 을 사용합니다.
+	* 실습에서는 `Google Galaxy Nexus - 4.3 - API 18 - 720x1280` 을 사용합니다.
 
 # 4. 기타 빠른 개발을 도와주는 도구 설치
 mac일 경우 아래 명령어 앞에 sudo를 추가해서 실행하세요.
