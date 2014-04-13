@@ -29,6 +29,9 @@ https://my.appcelerator.com/auth/signup
 1. http://www.genymotion.com 가입 후 다운로드
 2. Genymotion 실행후 원하는 '+' 아이콘 클릭하여 에뮬레이터 이미지 다운로드
 	* 실습에서는 `Google Galaxy Nexus - 4.3 - API 18 - 720x1280` 을 사용합니다.
+3. 설치 후 titanium에서 genymotion을 인식 할 수 있도록 다음 명령어를 터미널에 입력합니다. : `ti config genymotion.enabled true`
+4. 설치 확인 : Titanium Studio에서 프로젝트 생성후 Run Menu에서 아래와 같이 Genymotion 에뮬레이터에서 추가한 에뮬레이터가 나오는지 확인
+<img src="http://cl.ly/image/2G2U2B2j1n1j/genymotion_capture.png"/>
 
 # 4. 기타 빠른 개발을 도와주는 도구 설치
 mac일 경우 아래 명령어 앞에 sudo를 추가해서 실행하세요.
