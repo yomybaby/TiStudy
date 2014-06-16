@@ -2,6 +2,8 @@
 좀더 상세한 설명은 appcelerator 공식 문서를 참고하세요.  
 http://docs.appcelerator.com/titanium/latest/#!/guide/Installation_and_Configuration.
 
+#### 주의 : 예전에 설치를 했던 분들은 반드시 업데이트를 하고 오세요 강의 진행은 최신버전을 기준으로 합니다. 경우에 따라 예전버전을 사용하실 경우 실행이 안될 수 있습니다.
+
 # 1. Titanium Studio 및 Titanium SDK 설치
 
 1. Appcelerator 가입 / 로그인하여 해당 OS에 맞는  Titanium Studio 다운로드 후 설치
