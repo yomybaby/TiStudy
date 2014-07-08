@@ -39,6 +39,7 @@ https://my.appcelerator.com/auth/signup
 mac일 경우 아래 명령어 앞에 sudo를 추가해서 실행하세요.
 
 * tishadow 설치 : `npm install -g tishadow`
+	* sudo를 이용해서 할경우 `Unable to write config file...`에러가 날 수 있습니다. 이럴 경우 `sudo npm install -g tishadow --unsafe-perm` 명령을 이용해 주세요.
 	* 개발할 때 빠르게 시뮬레이터와 디바이스로 실행시켜주는 툴 
 	* http://tishadow.yydigital.com
 * gittio cli 설치 : `npm install -g gittio`
